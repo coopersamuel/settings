@@ -1,0 +1,234 @@
+{
+  "editor.fontFamily": "Dank Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 16,
+  "editor.fontLigatures": true,
+  "TodoParser": {
+      "exclude": [],
+      "include": [
+          "js, jsx, ts, tsx"
+      ],
+      "folderExclude": [
+          "node_modules",
+          ".vscode"
+      ],
+      "only": [],
+      "showInProblems": false,
+      "markers": [
+          "NOTE:",
+          "REMINDER:",
+          [
+              "FIXME",
+              "Warning"
+          ]
+      ],
+      "autoDefaultMarkers": true
+  },
+  "explorer.confirmDelete": false,
+  "materialTheme.fixIconsRunning": false,
+  "javascript.showUnused": true,
+  "typescript.showUnused": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "importCost.smallPackageColor": "#74e69c",
+  "importCost.mediumPackageColor": "#ffcc95",
+  "importCost.largePackageColor": "#d13100",
+  "workbench.colorTheme": "Code Blue",
+  "workbench.colorCustomizations": {
+      "[Panda Syntax]": {
+          "editor.background": "#29283b",
+          "editorGroupHeader.tabsBackground": "#292b36",
+          "tab.activeBackground": "#29283b",
+          "tab.activeBorder": "#adadeb",
+          "tab.activeForeground": "#adadeb",
+          "tab.inactiveBackground": "#292b36",
+          "tab.border": "#292b36",
+          "sideBar.background": "#292b36",
+          "sideBar.border": "#292b36",
+          "list.activeSelectionBackground": "#29283b",
+          "list.activeSelectionForeground": "#adadeb",
+          "list.inactiveSelectionBackground": "#29283b",
+          "list.inactiveSelectionForeground": "#adadeb",
+          "list.hoverBackground": "#29283b",
+          "list.dropBackground": "#29283b",
+          "activityBar.background": "#292b36",
+          "activityBar.border": "#292b36",
+          "titleBar.activeBackground": "#292b36",
+          "titleBar.inactiveBackground": "#292b36",
+          "statusBar.background": "#292b36",
+          "terminal.ansiGreen": "#adadeb",
+          "terminal.ansiRed": "#f191bd",
+          "editorCursor.foreground": "#f191bd",
+          "editorBracketMatch.border": "#adadeb"
+      },
+      "[Code Blue]": {
+          "activityBarBadge.background": "#77dcb8",
+          "terminal.ansiCyan": "#2bbac5",
+          "terminal.ansiGreen": "#77dcb8",
+          "terminal.ansiRed": "#ec8086",
+          "terminal.ansiBrightYellow": "#d3bc7b"
+      }
+  },
+  "editor.tokenColorCustomizations": {
+      "[Code Blue]": {
+          "keywords": "#77dcb8",
+          "textMateRules": [
+              // Storage
+              {
+                  "name": "Storage Type",
+                  "scope": "storage.type",
+                  "settings": {
+                      "foreground": "#ec8086"
+                  }
+              }
+          ]
+      },
+      "[Panda Syntax]": {
+          //"strings": "#ebd77e",
+          "keywords": "#f191bd",
+          //"variables": "#CEC2FF",
+          "functions": "#adadeb",
+          "textMateRules": [
+              // Keyword
+              {
+                  "name": "Keyword",
+                  "scope": "keyword",
+                  "settings": {
+                      "foreground": "#f191bd"
+                  }
+              },
+              {
+                  "name": "Keyword Control",
+                  "scope": "keyword.control",
+                  "settings": {
+                      "foreground": "#f191bd"
+                  }
+              },
+              // String
+              {
+                  "name": "String",
+                  "scope": "string",
+                  "settings": {
+                      "foreground": "#ebd77e"
+                  }
+              },
+              // Storage
+              {
+                  "name": "Storage Type",
+                  "scope": "storage.type",
+                  "settings": {
+                      "foreground": "#a577ee"
+                  }
+              },
+              // Constants
+              {
+                  "name": "Constant",
+                  "scope": "constant",
+                  "settings": {
+                      "foreground": "#ffcc95"
+                  }
+              },
+              // Variables
+              {
+                  "name": "Variables",
+                  "scope": "variable",
+                  "settings": {
+                      "foreground": "#beaff8"
+                  }
+              },
+              // Tags
+              {
+                  "name": "Tag Name",
+                  "scope": "entity.name.tag.js.jsx",
+                  "settings": {
+                      "foreground": "#ffffff"
+                  }
+              },
+              {
+                  "name": "Tag Attribute",
+                  "scope": "entity.other.attribute-name",
+                  "settings": {
+                      "foreground": "#B3B3F1"
+                  }
+              },
+              //Support
+              {
+                  "name": "Support",
+                  "scope": "entity.other.inherited-class",
+                  "settings": {
+                      //"foreground": "#ffcc95"
+                  }
+              },
+              // Classes
+              {
+                  "name": "React Component",
+                  "scope": "support.class.component.js.jsx",
+                  "settings": {
+                      "foreground": "#ffcc95"
+                  }
+              },
+              {
+                  "name": "Class Declaration",
+                  "scope": "entity.name.type.class.js.jsx",
+                  "settings": {
+                      "foreground": "#ffcc95"
+                  }
+              },
+              {
+                  "name": "super",
+                  "scope": "variable.language.super.js.jsx",
+                  "settings": {
+                      "foreground": "#adadeb"
+                  }
+              }
+          ]
+      }
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.fontSize": 15,
+  "window.newWindowDimensions": "maximized",
+  "reason.codelens.enabled": true,
+  "files.insertFinalNewline": true,
+  "auto-close-tag.activationOnLanguage": [
+      "xml",
+      "php",
+      "blade",
+      "ejs",
+      "jinja",
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact",
+      "plaintext",
+      "markdown",
+      "vue",
+      "liquid",
+      "erb",
+      "lang-cfml",
+      "cfml",
+      "HTML (Eex)",
+      "reason"
+  ],
+  "prettier.singleQuote": true,
+  "prettier.semi": true,
+  "editor.tabSize": 2,
+  "[javascript]": {
+      "editor.tabSize": 2
+  },
+  "[typescript]": {
+      "editor.tabSize": 2
+  },
+  "[python]": {
+      "editor.tabSize": 4,
+      "editor.formatOnType": true
+  },
+  "editor.autoClosingBrackets": "always",
+  "javascript.suggest.autoImports": false,
+  "editor.parameterHints.enabled": false,
+  "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.explorerKind": "external",
+  "terminal.external.osxExec": "Hyper.app",
+  "window.commandCenter": false
+}
